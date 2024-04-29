@@ -1,0 +1,79 @@
+ body {
+     background-image: url("Background.jpg");
+     height: auto;
+     border: none;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     flex-direction: column;
+ }
+
+ .search-container {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     margin-top: 50px;
+ }
+
+ form {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+
+ h1 {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: #48919b;
+     font-size: 50px;
+     letter-spacing: 5px;
+ }
+
+ .search-box {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     padding: 10px;
+     width: 400px;
+     height: 25px;
+     border: none;
+     border-radius: 20px;
+     border-color: #265B5F;
+ }
+
+ .search-box::placeholder {
+     text-align: center;
+     font-family: monospace;
+ }
+
+ a {
+     padding: 10px 10px 10px 10px;
+ }
+
+ img {
+     padding-top: 20px;
+     padding-bottom: 20px;
+     padding-left: 20px;
+     padding-right: 20px;
+     height: 30px;
+     width: 40px;
+     background-color: rgb(51, 213, 235);
+     border-radius: 30px;
+ }
+
+ img:hover {
+     cursor: pointer;
+     opacity: 0.3;
+     height: 50px;
+     width: 60px;
+     transition: 4seconds;
+ }
+
+ .shortcut-container {
+     margin: 50px 50px 50px 50px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
